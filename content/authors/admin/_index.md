@@ -22,13 +22,14 @@ organizations:
     url: https://umich.edu/
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include distributed robotics, mobile computing and programmable matter.
+bio: My research interests include connected vehicles, traffic control, distributed control, and data-driven control.
 
 # Interests to show in About widget
 interests:
-  - Connected and Automated Vehicles
+  - Connected Vehicles
   - Traffic Control
-  - Distributed and Data-driven Control
+  - Distributed Control
+  - Data-driven Control
 
 # Education to show in About widget
 education:
@@ -51,9 +52,15 @@ social:
   - icon: envelope
     icon_pack: fas
     link: '/#contact'
-  - icon: graduation-cap # Alternatively, use `google-scholar` icon from `ai` icon pack
-    icon_pack: fas
+  - icon: google-scholar # Alternatively, use `google-scholar` icon from `ai` icon pack
+    icon_pack: ai
     link: https://scholar.google.com/citations?user=XXFHGDEAAAAJ&hl=en
+  - icon: researchgate
+    icon_pack: ai
+    link: https://www.researchgate.net/profile/Jiawei-Wang-43
+  #- icon: graduation-cap # Alternatively, use `google-scholar` icon from `ai` icon pack
+  #  icon_pack: fas
+  #  link: https://scholar.google.com/citations?user=XXFHGDEAAAAJ&hl=en
   - icon: github
     icon_pack: fab
     link: https://github.com/wangjw18
@@ -74,5 +81,5 @@ email: ''
 highlight_name: true
 ---
 
-Alice Wu is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+I am currently a Postdoctoral Research Fellow in the [Michigan Traffic Lab](https://traffic.engin.umich.edu/) of the University of Michigan, Ann Arbor, working with [Prof. Henry X. Liu](https://traffic.engin.umich.edu/). I received my Ph.D. degree in Mechanical Engineering at [Tsinghua University](https://www.tsinghua.edu.cn/publish/thu2018en/index.html) in 2023, advised by [Prof. Keqiang Li](https://scholar.google.com/citations?user=x58fnLQAAAAJ&hl=en&oi=ao) and [Prof. Yang Zheng](https://zhengy09.github.io/index.html), and my Bachelor’s Degree in Automotive Engineering at Tsinghua University in 2018. I was also a visiting PhD student in the [Automatic Control Laboratory](https://www.epfl.ch/labs/la/) at [EPFL](https://www.epfl.ch/en/) (École Polytechnique Fédérale de Lausanne), advised by [Prof. Colin Jones](https://people.epfl.ch/colin.jones), from Dec 2022 to Dec 2023.
 {style="text-align: justify;"}
