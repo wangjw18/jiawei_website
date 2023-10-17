@@ -7,17 +7,17 @@ main:
   - name: Home
     url: '#about'
     weight: 10
-  - name: Awards
-    url: '#awards'
-    weight: 20
   - name: News
     url: '#news'
-    weight: 30
-  - name: Service
-    url: '#service'
-    weight: 40
+    weight: 20
   - name: Publications
     url: '#featured'
+    weight: 30
+  - name: Awards
+    url: '#awards'
+    weight: 40
+  - name: Service
+    url: '#service'
     weight: 50
   - name: Contact
     url: '#contact'
