@@ -65,7 +65,7 @@ sections:
         {{% /callout %}}
     design:
       columns: '2'
-      view: card
+      view: compact
   #- block: collection
   #  content:
   #    title: Recent Publications
