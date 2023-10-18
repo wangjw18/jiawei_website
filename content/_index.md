@@ -78,8 +78,7 @@ sections:
     content:
       title: Awards
       subtitle: A subtitle
-      text: |-
-      - 2023, Outstanding Ph.D. Graduate, Tsinghua University
+      text: - 2023, Outstanding Ph.D. Graduate, Tsinghua University
       - 2023, Excellent Doctoral Dissertation Award, Tsinghua University
       - 2023, Best Presentation Award, the First National Doctoral Forum by SAE-China
       - 2021, 1st Prize, Annual Best Paper Award in Journal of Transport Information and Safety
