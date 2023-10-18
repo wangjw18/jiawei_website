@@ -83,25 +83,58 @@ sections:
   - block: markdown
     id: awards
     content:
-      title: Awards
-      subtitle: A subtitle
-      text: awwww
+      title: Awards and Scholarships
+      #subtitle: A subtitle
+      text: |-
+        # Awards
+
+        - 2023, Outstanding Ph.D. Graduate, Tsinghua University
+
+        - 2023, Excellent Doctoral Dissertation Award, Tsinghua University
+
+        - 2023, Best Presentation Award, the First National Doctoral Forum by SAE-China
+
+        - 2021, 1st Prize, Annual Best Paper Award in Journal of Transport Information and Safety
+
+        - 2018, Best Paper Award in the 18th COTA International Conference for Transportation Professionals
+
+        - 2018, Outstanding Undergraduate Thesis Award, Department of Automotive Engineering at Tsinghua University
+        
+        - 2016, Outstanding Student Leader Award, Tsinghua University
+
+        # Scholarships
+
+        - 2022, National Scholarship, Tsinghua University
+
+        - 2020, National Scholarship, Tsinghua University
+
+        - 2020, CSC Scholarship for Visiting PhD Study at EPFL
+
+        - 2019, Comprehensive Scholarship, Tsinghua University (Top 3 graduates in year 1)
+
+        - 2017, Comprehensive Scholarship, Tsinghua University (Top 3 undergraduates in year 3)
+        
+        - 2016, Comprehensive Scholarship, Tsinghua University (Top 3 undergraduates in year 2)
+
+        - 2015, Outstanding Volunteer Scholarship, Tsinghua University
+
+        - 2015, National Scholarship, Tsinghua University (Top 1 undergraduate in year 1)
   - block: markdown
     id: service
     content:
       title: Service
-      subtitle: A subtitle
-      text: Text    
-  - block: collection
-    id: talks
-    content:
-      title: Recent & Upcoming Talks
-      filters:
-        folders:
-          - event
-    design:
-      columns: '2'
-      view: compact
+      #subtitle: A subtitle
+      text: Service ...    
+  #- block: collection
+  #  id: talks
+  #  content:
+  #    title: Recent & Upcoming Talks
+  #    filters:
+  #      folders:
+  #        - event
+  #  design:
+  #    columns: '2'
+  #    view: compact
   - block: contact
     id: contact
     content:
