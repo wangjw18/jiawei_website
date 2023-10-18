@@ -46,11 +46,11 @@ sections:
     id: news
     content:
       title: News
-      subtitle: A subtitle
+      #subtitle: A subtitle
       text: |-
-        news 1
+        - news 1
 
-        news 2
+        - news 2
   - block: collection
     id: featured
     content:
