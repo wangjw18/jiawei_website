@@ -28,7 +28,7 @@ publication_types: ['article-journal']
 
 # Publication name and optional abbreviated publication name.
 publication: "IEEE Transactions on Control Systems Technology"
-publication_short: In *ICW*
+publication_short: ""
 
 abstract: In this article, instead of relying on a parametric car-following model, we introduce a data-driven nonparametric strategy, called Data-EnablEd Predictive Leading Cruise Control (DeeP-LCC), to achieve safe and optimal control of CAVs in mixed traffic. We first utilize Willems’ fundamental lemma to obtain a data-centric representation of mixed traffic behavior. This is justified by rigorous analysis on controllability and observability properties of mixed traffic. We then employ a receding horizon strategy to solve a finite-horizon optimal control problem at each time step, in which input–output constraints are incorporated for collision-free guarantees. Numerical experiments validate the performance of DeeP-LCC compared to a standard predictive controller that requires an accurate model. Multiple nonlinear traffic simulations further confirm its great potential on improving traffic efficiency, driving safety, and fuel economy.
 
@@ -59,7 +59,7 @@ url_video: 'https://www.youtube.com/watch?v=ZZ2cWhapqpc&ab_channel=SOClab'
 image:
   caption: 'DeeP-LCC'
   focal_point: ''
-  preview_only: false
+  preview_only: true
 
 # Associated Projects (optional).
 #   Associate this publication with one or more of your projects.
