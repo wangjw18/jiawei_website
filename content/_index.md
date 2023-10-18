@@ -121,14 +121,73 @@ sections:
         - 2015, Outstanding Volunteer Scholarship, Tsinghua University
 
         - 2015, **National Scholarship**, Tsinghua University (Top 1 undergraduate in year 1)
-    design:
-      columns: '1'
   - block: markdown
     id: service
     content:
       title: Service
       #subtitle: A subtitle
-      text: Service ...    
+      text: |-
+        ## Reviewer for Journal
+
+	      - IEEE Transactions on Intelligent Transportation Systems
+
+	      - Transportation Research Part C Emerging Technologies
+
+	      - IEEE Internet of Things Journal
+
+	      - IEEE Transactions on Intelligent Vehicles
+
+	      - IEEE Transactions on Control Systems Technology
+
+	      - IEEE Transactions on Control of Network Systems
+
+	      - IET Intelligent Transport Systems
+
+	      - Optimal Control, Applications and Methods
+
+	      - International Journal of Systems Science
+
+	      - Asian Journal of Control
+
+	      - ACM Transactions on Cyber-Physical Systems
+
+	      - Journal of the Franklin Institute
+
+        ## Reviewer for Conference
+
+	      - IEEE Conference on Decision and Control (CDC)
+
+	      - IFAC World Congress (IFAC)
+
+	      - American Control Conference (ACC)
+
+        - International Symposium on Transportation and Traffic Theory (ISTTT)
+
+	      - Learning for Dynamics and Control (L4DC)
+
+	      - IEEE International Conference on Intelligent Transportation (ITSC)
+
+	      - ACM/IEEE International Conference on Cyber-Physical Systems (ICCPS)
+
+	      - COTA International Conference for Transportation Professionals (CICTP)
+
+	      - ITS World Congress (ITSW)
+
+	      - Modeling, Estimation and Control Conference (MECC)
+
+        ## Teaching Assistant
+
+	      - Vehicle Control Engineering, 2020
+
+	      - Calculus, 2020
+
+        ## Demonstrator
+
+	      - Autonomous Driving Demonstration at Tsinghua University, 2018-2020
+
+        ## Volunteer 
+
+	      - 14th International Symposium on Advanced Vehicle Control (AVEC) 
   #- block: collection
   #  id: talks
   #  content:
