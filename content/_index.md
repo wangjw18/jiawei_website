@@ -86,27 +86,29 @@ sections:
       title: Awards and Scholarships
       #subtitle: A subtitle
       text: |-
-        # Awards
+        ## Awards
 
-        - 2023, Outstanding Ph.D. Graduate, Tsinghua University
+        - 2023, **Excellent Doctoral Dissertation Award**, SAE-China
+        
+        - 2023, **Outstanding Ph.D. Graduate**, Tsinghua University
 
-        - 2023, Excellent Doctoral Dissertation Award, Tsinghua University
+        - 2023, **Excellent Doctoral Dissertation Award**, Tsinghua University
 
         - 2023, Best Presentation Award, the First National Doctoral Forum by SAE-China
 
-        - 2021, 1st Prize, Annual Best Paper Award in Journal of Transport Information and Safety
+        - 2021, 1st Prize, **Annual Best Paper Award** in Journal of Transport Information and Safety
 
-        - 2018, Best Paper Award in the 18th COTA International Conference for Transportation Professionals
+        - 2018, **Best Paper Award** in the 18th COTA International Conference for Transportation Professionals
 
         - 2018, Outstanding Undergraduate Thesis Award, Department of Automotive Engineering at Tsinghua University
         
         - 2016, Outstanding Student Leader Award, Tsinghua University
 
-        # Scholarships
+        ## Scholarships
 
-        - 2022, National Scholarship, Tsinghua University
+        - 2022, **National Scholarship**, Tsinghua University
 
-        - 2020, National Scholarship, Tsinghua University
+        - 2020, **National Scholarship**, Tsinghua University
 
         - 2020, CSC Scholarship for Visiting PhD Study at EPFL
 
@@ -118,7 +120,7 @@ sections:
 
         - 2015, Outstanding Volunteer Scholarship, Tsinghua University
 
-        - 2015, National Scholarship, Tsinghua University (Top 1 undergraduate in year 1)
+        - 2015, **National Scholarship**, Tsinghua University (Top 1 undergraduate in year 1)
   - block: markdown
     id: service
     content:
