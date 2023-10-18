@@ -64,7 +64,7 @@ sections:
         For the full list of my publication, please see my [Google Scholar](https://scholar.google.com/citations?user=XXFHGDEAAAAJ&hl=en) page.
         {{% /callout %}}
     design:
-      columns: '2'
+      columns: '1'
       view: compact
   #- block: collection
   #  content:
