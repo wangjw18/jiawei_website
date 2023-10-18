@@ -59,7 +59,7 @@ url_video: 'https://www.youtube.com/watch?v=ZZ2cWhapqpc&ab_channel=SOClab'
 image:
   caption: 'DeeP-LCC'
   focal_point: ''
-  preview_only: true
+  preview_only: false
 
 # Associated Projects (optional).
 #   Associate this publication with one or more of your projects.
