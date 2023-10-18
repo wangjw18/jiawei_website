@@ -47,7 +47,10 @@ sections:
     content:
       title: News
       subtitle: A subtitle
-      text: Text
+      text: |-
+        news 1
+
+        news 2
   - block: collection
     id: featured
     content:
