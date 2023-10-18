@@ -85,3 +85,4 @@ I am currently a Postdoctoral Research Fellow in the [Michigan Traffic Lab](http
 {style="text-align: justify;"}
 
 I received the Outstanding Ph.D. Graduate, Excellent Doctoral Dissertation Award, and the National Scholarship from Tsinghua University. I was the recipient of the Excellent Doctoral Dissertation Award from Society of Automotive Engineers (SAE)-China in 2023, the Annual Best Paper Award for the Journal of Transport Information and Safety in 2021, and the Best Paper Award at the 18th COTA International Conference of Transportation Professionals in 2018.
+{style="text-align: justify;"}
