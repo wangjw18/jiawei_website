@@ -57,7 +57,7 @@ url_video: 'https://www.youtube.com/watch?v=ZZ2cWhapqpc&ab_channel=SOClab'
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.
 image:
-  placement: 1
+  placement: 3
   caption: 'DeeP-LCC'
   focal_point: 'Center'
   preview_only: false
