@@ -121,6 +121,8 @@ sections:
         - 2015, Outstanding Volunteer Scholarship, Tsinghua University
 
         - 2015, **National Scholarship**, Tsinghua University (Top 1 undergraduate in year 1)
+    design:
+      columns: '1'
   - block: markdown
     id: service
     content:
