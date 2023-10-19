@@ -10,10 +10,7 @@ authors:
   - Jiawei Wang
   - Chunying Yang
   - Mengchi Cai
-  - Chaoyi Chen
-  - Yu Liu
-  - Jianqiang Wang
-  - Keqiang Li
+  - et al
 
 # Author notes (optional)
 author_notes: 
