@@ -30,7 +30,7 @@ publishDate: '2023-08-01T00:00:00Z'
 publication_types: ['article-journal']
 
 # Publication name and optional abbreviated publication name.
-publication: "IEEE Transactions on Control Systems Technology"
+publication: "IEEE Internet of Things Journal"
 publication_short: ""
 
 abstract: "In this paper, we present the first experimental results of data-driven predictive control for connected and autonomous vehicles (CAVs) in dissipating traffic waves. In particular, we consider a recent strategy of Data-EnablEd Predicted Leading Cruise Control (DeeP-LCC), which bypasses the need of identifying the driving behaviors of surrounding vehicles and directly relies on measurable traffic data to achieve safe and optimal CAV control in mixed traffic. We present the implementation details of DeeP-LCC, including data collection, equilibrium estimation, and control execution. Based on a miniature experiment platform, we reproduce the phenomenon of stop-and-go waves in two typical traffic scenarios: 1) open straight-road scenario under external disturbances and 2) closed ring-road scenario with no bottlenecks. Our experiments clearly demonstrate that DeeP-LCC enables one or a few CAVs to dissipate the traffic waves in both traffic scenarios. These experimental findings validate the great potential of DeeP-LCC in smoothing practical traffic flow in the presence of noisy data, uncertain low-level vehicle dynamics, and communication and computation delays."
@@ -41,7 +41,7 @@ summary: []
 tags: []
 
 # Display this page in the Featured widget?
-featured: true
+featured: false
 
 # Custom links (uncomment lines below)
 # links:
