@@ -48,9 +48,22 @@ sections:
       title: News
       #subtitle: A subtitle
       text: |-
-        - news 1
-
-        - news 2
+        - **10/2023**: I was awarded the Excellent Doctoral Dissertation Award from [Society of Automotive Engineers (SAE)-China](https://www.sae-china.org/).
+        - **09/2023**: I started my new position as Postdoctoral Research Fellow in the [Michigan Traffic Lab](https://traffic.engin.umich.edu/) of the University of Michigan, Ann Arbor, working with [Prof. Henry X. Liu](https://traffic.engin.umich.edu/).
+        - **07/2023**: Our paper [Distributed data-driven predictive control for cooperatively smoothing mixed traffic flow](https://arxiv.org/abs/2210.13171) was accepted for publication in Transportation Research Part C.
+        - **07/2023**: Our paper [Implementation and Experimental Validation of Data-Driven Predictive Control for Dissipating Stop-and-Go Waves in Mixed Traffic](https://arxiv.org/abs/2204.03747) was accepted for publication in the IEEE Internet of Things Journal.
+        - **06/2023**: Our paper [Cloud-based Connected Vehicle Control under Time-Varying Delay: Stability Analysis and Controller Synthesis](https://ieeexplore.ieee.org/document/10159455) was accepted for publication in the IEEE Transactions on Vehicular Technology.
+        - **06/2023**: Our paper [DeeP-LCC: Data-EnablEd Predictive Leading Cruise Control in Mixed Traffic Flow](https://arxiv.org/abs/2203.10639) was accepted for publication in the IEEE Transactions on Control Systems Technology.
+        - **06/2023**: I received the Outstanding Ph.D. Graduate and the Excellent Doctoral Dissertation Award from Tsinghua University.
+        - **05/2023**: I passed the public defense for my PhD thesis!
+        - **02/2023**: Our paper [Mixed Cloud Control Testbed: Validating Vehicle-Road-Cloud Integration via Mixed Digital Twin](https://arxiv.org/abs/2212.02007) was accepted for publication in the IEEE Transactions on Intelligent Vehicles.
+        - **01/2023**: I finished my visit study at the [Automatic Control Laboratory](https://www.epfl.ch/labs/la/) of EPFL. Great thanks to [Prof. Colin Jones](https://people.epfl.ch/colin.jones) for hosting me and all the colleagues in the lab for helping me through the past year!
+        - **10/2022**: Check out our new preprint: [Distributed data-driven predictive control for cooperatively smoothing mixed traffic flow](https://arxiv.org/abs/2210.13171).
+        - **10/2022**: I was awarded National Scholarship at Tsinghua University.
+        - **07/2022**: Invited talk on [Smoothing Traffic Flow via Connected and Autonomous Vehicles](https://wangjw18.github.io/files/2022-EPFL-Smoothing-Traffic.pdf) at the EPFL, hosted by Prof. [Maryam Kamgarpour](https://people.epfl.ch/maryam.kamgarpour?lang=en).
+        - **04/2022**: Check out our new preprint: [Implementation and Experimental Validation of Data-Driven Predictive Control for Dissipating Stop-and-Go Waves in Mixed Traffic](https://arxiv.org/abs/2204.03747), and the two videos on the experiments: [Video 1](https://www.youtube.com/watch?v=ZZ2cWhapqpc) and [Video 2](https://www.youtube.com/watch?v=YhxCZImcZL4).
+        - **01/2022**: Our paper [Data-Driven Predictive Control for Connected and Autonomous Vehicles in Mixed Traffic](https://arxiv.org/abs/2110.10097) was accepted to 2022 American Control Conference.
+        - **01/2022**: I started my visiting study at the [Automatic Control Laboratory](https://www.epfl.ch/labs/la/) in [EPFL](https://www.epfl.ch/en/) (École Polytechnique Fédérale de Lausanne), advised by [Prof. Colin Jones](https://people.epfl.ch/colin.jones)!
   - block: collection
     id: featured
     content:
