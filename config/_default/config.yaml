@@ -4,7 +4,7 @@
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
 title: Jiawei Wang # Website name
-baseURL: 'http://http://www.wjiawei.com/' # Website URL
+baseURL: 'https://wjiawei.com/' # Website URL
 
 ############################
 ## LANGUAGE
