@@ -101,13 +101,13 @@ sections:
       text: |-
         ## Awards
 
-        - 2023, **Excellent Doctoral Dissertation Award**, SAE-China
+        - 2023, **Distinguished Doctoral Dissertation Award**, China Society of Automotive Engineers
         
         - 2023, **Outstanding Ph.D. Graduate**, Tsinghua University
 
         - 2023, **Excellent Doctoral Dissertation Award**, Tsinghua University
 
-        - 2023, Best Presentation Award, the First National Doctoral Forum by SAE-China
+        - 2023, Best Presentation Award, the First National Doctoral Forum by China Society of Automotive Engineers
 
         - 2021, 1st Prize, **Annual Best Paper Award** in Journal of Transport Information and Safety
 
