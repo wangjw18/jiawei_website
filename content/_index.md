@@ -48,7 +48,7 @@ sections:
       title: News
       #subtitle: A subtitle
       text: |-
-        - **10/2023**: I was awarded the Excellent Doctoral Dissertation Award from [Society of Automotive Engineers (SAE)-China](https://www.sae-china.org/).
+        - **10/2023**: I was awarded the Distinguished Doctoral Dissertation Award from [China Society of Automotive Engineers (China SAE)](https://www.sae-china.org/).
         - **09/2023**: I started my new position as Postdoctoral Research Fellow in the [Michigan Traffic Lab](https://traffic.engin.umich.edu/) of the University of Michigan, Ann Arbor, working with [Prof. Henry X. Liu](https://traffic.engin.umich.edu/).
         - **07/2023**: Our paper [Distributed data-driven predictive control for cooperatively smoothing mixed traffic flow](https://arxiv.org/abs/2210.13171) was accepted for publication in Transportation Research Part C.
         - **07/2023**: Our paper [Implementation and Experimental Validation of Data-Driven Predictive Control for Dissipating Stop-and-Go Waves in Mixed Traffic](https://arxiv.org/abs/2204.03747) was accepted for publication in the IEEE Internet of Things Journal.

@@ -29,7 +29,7 @@ interests:
   - Connected Vehicles
   - Traffic Control
   - Distributed Control
-  - Data-driven Control
+  - Digital Twin
 
 # Education to show in About widget
 education:
