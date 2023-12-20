@@ -27,9 +27,9 @@ bio: My research interests include connected vehicles, traffic control, distribu
 # Interests to show in About widget
 interests:
   - Connected Vehicles
+  - Intelligent Vehicles
   - Traffic Control
   - Distributed Control
-  - Digital Twin
 
 # Education to show in About widget
 education:
