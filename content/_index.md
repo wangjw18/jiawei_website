@@ -144,6 +144,8 @@ sections:
 
         **Reviewer for Conference:** IEEE Conference on Decision and Control (CDC); IFAC World Congress (IFAC); American Control Conference (ACC); International Symposium on Transportation and Traffic Theory (ISTTT); Learning for Dynamics and Control (L4DC); IEEE International Conference on Intelligent Transportation (ITSC); ACM/IEEE International Conference on Cyber-Physical Systems (ICCPS); COTA International Conference for Transportation Professionals (CICTP); ITS World Congress (ITSW); Modeling, Estimation and Control Conference (MECC).
 
+        **Editorial Assistant:** Journal of Intelligent Transportation Systems.
+
         **Teaching Assistant:** Vehicle Control Engineering, 2020; Calculus, 2020.
 
         **Demonstrator:** Autonomous Driving Demonstration at Tsinghua University, 2018-2020.
