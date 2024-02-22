@@ -48,6 +48,8 @@ sections:
       title: News
       #subtitle: A subtitle
       text: |-
+        - **02/2024**: Check our our new preprints on robust data-driven predictive control for CAVs in mixed traffic: [Decentralized Robust Data-driven Predictive Control for Smoothing Mixed Traffic Flow](https://arxiv.org/abs/2401.15826) and [Robust Data-EnablEd Predictive Leading Cruise Control via Reachability Analysis](https://arxiv.org/abs/2402.03897).
+        - **01/2024**: Our paper [Smoothing mixed traffic with robust data-driven predictive control for connected and autonomous vehicles](https://arxiv.org/abs/2310.00509) was accepted to 2024 American Control Conference.
         - **10/2023**: I was awarded the Distinguished Doctoral Dissertation Award from [China Society of Automotive Engineers (China SAE)](https://www.sae-china.org/).
         - **09/2023**: I started my new position as Postdoctoral Research Fellow in the [Michigan Traffic Lab](https://traffic.engin.umich.edu/) of the University of Michigan, Ann Arbor, working with [Prof. Henry X. Liu](https://traffic.engin.umich.edu/).
         - **07/2023**: Our paper [Distributed data-driven predictive control for cooperatively smoothing mixed traffic flow](https://arxiv.org/abs/2210.13171) was accepted for publication in Transportation Research Part C.
