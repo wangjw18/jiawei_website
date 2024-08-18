@@ -48,6 +48,7 @@ sections:
       title: News
       #subtitle: A subtitle
       text: |-
+        - **06/2024**: Welcome to participate in the [Mcity AV Challenge](https://mcity.umich.edu/av-challenge/)!
         - **02/2024**: Check our our new preprints on robust data-driven predictive control for CAVs in mixed traffic: [Decentralized Robust Data-driven Predictive Control for Smoothing Mixed Traffic Flow](https://arxiv.org/abs/2401.15826) and [Robust Data-EnablEd Predictive Leading Cruise Control via Reachability Analysis](https://arxiv.org/abs/2402.03897).
         - **01/2024**: Our paper [Smoothing mixed traffic with robust data-driven predictive control for connected and autonomous vehicles](https://arxiv.org/abs/2310.00509) was accepted to 2024 American Control Conference.
         - **10/2023**: I was awarded the Distinguished Doctoral Dissertation Award from [China Society of Automotive Engineers (China SAE)](https://www.sae-china.org/).
@@ -142,11 +143,13 @@ sections:
       title: Service
       #subtitle: A subtitle
       text: |-
-        **Reviewer for Journal:** IEEE Transactions on Intelligent Transportation Systems; Transportation Research Part C Emerging Technologies; IEEE Internet of Things Journal; IEEE Transactions on Intelligent Vehicles; IEEE Transactions on Control Systems Technology; IEEE Transactions on Control of Network Systems; IEEE Transactions on Vehicular Technology; Scientific Reports; IEEE/CAA Journal of Automatica Sinica; Transportation Science; IET Intelligent Transport Systems;  Automotive Innovation; Optimal Control, Applications and Methods; International Journal of Systems Science; Asian Journal of Control; ACM Transactions on Cyber-Physical Systems; Journal of the Franklin Institute.
+        **Reviewer for Journal:** IEEE Transactions on Intelligent Transportation Systems; Transportation Research Part C Emerging Technologies; IEEE Internet of Things Journal; IEEE Transactions on Intelligent Vehicles; IEEE Transactions on Control Systems Technology; IEEE Transactions on Control of Network Systems; IEEE Transactions on Vehicular Technology; Scientific Reports; IEEE/CAA Journal of Automatica Sinica; Transportation Science; Accident Analysis and Prevention; IET Intelligent Transport Systems;  Automotive Innovation; Optimal Control, Applications and Methods; International Journal of Systems Science; Asian Journal of Control; ACM Transactions on Cyber-Physical Systems; Journal of the Franklin Institute.
 
-        **Reviewer for Conference:** IEEE Conference on Decision and Control (CDC); IFAC World Congress (IFAC); American Control Conference (ACC); International Symposium on Transportation and Traffic Theory (ISTTT); Learning for Dynamics and Control (L4DC); IEEE International Conference on Intelligent Transportation (ITSC); IEEE Intelligent Vehicles Symposium (IV); ACM/IEEE International Conference on Cyber-Physical Systems (ICCPS); COTA International Conference for Transportation Professionals (CICTP); ITS World Congress (ITSW); Modeling, Estimation and Control Conference (MECC).
+        **Reviewer for Conference:** IEEE Conference on Decision and Control (CDC); IFAC World Congress (IFAC); American Control Conference (ACC); International Symposium on Transportation and Traffic Theory (ISTTT); TRB Annual Meeting; Learning for Dynamics and Control (L4DC); IEEE International Conference on Intelligent Transportation (ITSC); IEEE Intelligent Vehicles Symposium (IV); ACM/IEEE International Conference on Cyber-Physical Systems (ICCPS); COTA International Conference for Transportation Professionals (CICTP); ITS World Congress (ITSW); Modeling, Estimation and Control Conference (MECC).
 
         **Editorial Assistant:** Journal of Intelligent Transportation Systems.
+
+        **Organizer:** Mcity AV Challenge.
 
         **Teaching Assistant:** Vehicle Control Engineering, 2020; Calculus, 2020.
 
