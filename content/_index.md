@@ -191,4 +191,13 @@ sections:
           captcha: false
     design:
       columns: '2'
+  - block: markdown
+    content:
+      title: ""
+      subtitle: ""
+      text: |-
+        --- Public Visitors Records ---
+        <div style="width: 100%; max-width: 1500px; margin: auto;">
+        <script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=JX0xahGjzqNhxP67iYgqAk3UsFg1dxmWargzm8frCdU&cl=ffffff&w=a"></script>
+        </div>
 ---
