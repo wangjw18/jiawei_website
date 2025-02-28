@@ -196,8 +196,7 @@ sections:
       title: ""
       subtitle: ""
       text: |-
-        # --- Public Visitors Records ---
-        <div style="width: 100%; max-width: 600px; margin: auto;">
+        <div style="width: 100%; max-width: 500px; margin: auto;">
         <script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=JX0xahGjzqNhxP67iYgqAk3UsFg1dxmWargzm8frCdU&cl=ffffff&w=a"></script>
         </div>
 ---
