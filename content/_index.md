@@ -196,7 +196,7 @@ sections:
       title: ""
       subtitle: ""
       text: |-
-        <div style="width: 100%; max-width: 500px; margin: auto;">
+        <div style="width: 100%; max-width: 300px; margin: auto;">
         <script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=JX0xahGjzqNhxP67iYgqAk3UsFg1dxmWargzm8frCdU&cl=ffffff&w=a"></script>
         </div>
 ---
