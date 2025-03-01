@@ -191,6 +191,7 @@ sections:
           captcha: false
     design:
       columns: '2'
+<!-- For page view
   - block: markdown
     content:
       title: ""
@@ -199,4 +200,5 @@ sections:
         <div style="width: 100%; max-width: 300px; margin: auto;">
         <script type="text/javascript" id="clustrmaps" src="//cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=a&t=tt&d=JX0xahGjzqNhxP67iYgqAk3UsFg1dxmWargzm8frCdU"></script>
         </div>
+-->
 ---
