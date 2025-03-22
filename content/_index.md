@@ -48,6 +48,7 @@ sections:
       title: News
       #subtitle: A subtitle
       text: |-
+        - **03/2025**: I was award Beijing 2024 Outstanding Doctoral Dissertation Award!
         - **11/2024**: Our paper [Decentralized Robust Data-driven Predictive Control for Smoothing Mixed Traffic Flow](https://ieeexplore.ieee.org/document/10810289?denied=) was accepted for publication in IEEE Transactions on Intelligent Transportation Systems. Congratulations to my great collaborator [Xu Shang](https://xushang23.github.io/)! 
         - **11/2024**: Our paper [Influence of information flow topology and maximum platoon size on mixed traffic stability](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=XXFHGDEAAAAJ&sortby=pubdate&citation_for_view=XXFHGDEAAAAJ:cWzG1nlazyYC) was accepted for publication in Transportation Research Part C. Congratulations to my great collaborator [Shuai Li]([https://xushang23.github.io/](https://www.researchgate.net/profile/Shuai-Li-134))!
         - **08/2024**: Check [this video](https://www.youtube.com/watch?v=5vXTlNPkb3U) for our demonstration of Green Wave Speed Advisory system in Mcity as part of the [Smart Intersection Project](https://sip.umtri.umich.edu/). Thanks to the great support from Mcity and TOYOTA!
@@ -107,6 +108,8 @@ sections:
       text: |-
         ## Awards
 
+        - 2025, **Beijing Outstanding Doctoral Dissertation Award**
+        
         - 2023, **Distinguished Doctoral Dissertation Award**, China Society of Automotive Engineers
         
         - 2023, **Outstanding Ph.D. Graduate**, Tsinghua University
@@ -148,7 +151,7 @@ sections:
       text: |-
         **Reviewer for Journal:** IEEE Transactions on Intelligent Transportation Systems; Transportation Research Part C Emerging Technologies; IEEE Internet of Things Journal; IEEE Transactions on Intelligent Vehicles; IEEE Transactions on Control Systems Technology; IEEE Transactions on Control of Network Systems; IEEE Transactions on Vehicular Technology; Scientific Reports; IEEE/CAA Journal of Automatica Sinica; Transportation Science; Accident Analysis and Prevention; IET Intelligent Transport Systems;  Automotive Innovation; Optimal Control, Applications and Methods; International Journal of Systems Science; Asian Journal of Control; ACM Transactions on Cyber-Physical Systems; Journal of the Franklin Institute; Chinese Journal of Mechanical Engineering; Sensors; World Electric Vehicle Journal.
 
-        **Reviewer for Conference:** IEEE Conference on Decision and Control (CDC); IFAC World Congress (IFAC); American Control Conference (ACC); International Symposium on Transportation and Traffic Theory (ISTTT); TRB Annual Meeting; Learning for Dynamics and Control (L4DC); IEEE International Conference on Intelligent Transportation (ITSC); IEEE Intelligent Vehicles Symposium (IV); ACM/IEEE International Conference on Cyber-Physical Systems (ICCPS); COTA International Conference for Transportation Professionals (CICTP); ITS World Congress (ITSW); Modeling, Estimation and Control Conference (MECC).
+        **Reviewer for Conference:** IEEE Conference on Decision and Control (CDC); IFAC World Congress (IFAC); American Control Conference (ACC); IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS); International Symposium on Transportation and Traffic Theory (ISTTT); TRB Annual Meeting; Learning for Dynamics and Control (L4DC); IEEE International Conference on Intelligent Transportation (ITSC); IEEE Intelligent Vehicles Symposium (IV); ACM/IEEE International Conference on Cyber-Physical Systems (ICCPS); COTA International Conference for Transportation Professionals (CICTP); ITS World Congress (ITSW); Modeling, Estimation and Control Conference (MECC).
 
         **Editorial Assistant:** Journal of Intelligent Transportation Systems.
 
