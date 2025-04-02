@@ -48,7 +48,7 @@ sections:
       title: News
       #subtitle: A subtitle
       text: |-
-        - **03/2025**: I was award Beijing 2024 Outstanding Doctoral Dissertation Award!
+        - **12/2024**: I was award Beijing 2024 Outstanding Doctoral Dissertation Award!
         - **11/2024**: Our paper [Decentralized Robust Data-driven Predictive Control for Smoothing Mixed Traffic Flow](https://ieeexplore.ieee.org/document/10810289?denied=) was accepted for publication in IEEE Transactions on Intelligent Transportation Systems. Congratulations to my great collaborator [Xu Shang](https://xushang23.github.io/)! 
         - **11/2024**: Our paper [Influence of information flow topology and maximum platoon size on mixed traffic stability](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=XXFHGDEAAAAJ&sortby=pubdate&citation_for_view=XXFHGDEAAAAJ:cWzG1nlazyYC) was accepted for publication in Transportation Research Part C. Congratulations to my great collaborator [Shuai Li]([https://xushang23.github.io/](https://www.researchgate.net/profile/Shuai-Li-134))!
         - **08/2024**: Check [this video](https://www.youtube.com/watch?v=5vXTlNPkb3U) for our demonstration of Green Wave Speed Advisory system in Mcity as part of the [Smart Intersection Project](https://sip.umtri.umich.edu/). Thanks to the great support from Mcity and TOYOTA!
@@ -71,35 +71,35 @@ sections:
         - **04/2022**: Check out our new preprint: [Implementation and Experimental Validation of Data-Driven Predictive Control for Dissipating Stop-and-Go Waves in Mixed Traffic](https://arxiv.org/abs/2204.03747), and the two videos on the experiments: [Video 1](https://www.youtube.com/watch?v=ZZ2cWhapqpc) and [Video 2](https://www.youtube.com/watch?v=YhxCZImcZL4).
         - **01/2022**: Our paper [Data-Driven Predictive Control for Connected and Autonomous Vehicles in Mixed Traffic](https://arxiv.org/abs/2110.10097) was accepted to 2022 American Control Conference.
         - **01/2022**: I started my visiting study at the [Automatic Control Laboratory](https://www.epfl.ch/labs/la/) in [EPFL](https://www.epfl.ch/en/) (École Polytechnique Fédérale de Lausanne), advised by [Prof. Colin Jones](https://people.epfl.ch/colin.jones)!
-  - block: collection
-    id: featured
-    content:
-      title: Featured Publications
-      filters:
-        folders:
-          - publication
-        featured_only: true
-      text: |-
-        {{% callout note %}}
-        For the full list of my publication, please see my [Google Scholar](https://scholar.google.com/citations?user=XXFHGDEAAAAJ&hl=en) page.
-        {{% /callout %}}
-    design:
-      columns: '2'
-      view: card
  # - block: collection
+ #   id: featured
  #   content:
- #     title: Recent Publications
+ #     title: Featured Publications
+ #     filters:
+ #       folders:
+ #         - publication
+ #       featured_only: true
  #     text: |-
  #       {{% callout note %}}
  #       For the full list of my publication, please see my [Google Scholar](https://scholar.google.com/citations?user=XXFHGDEAAAAJ&hl=en) page.
  #       {{% /callout %}}
- #     filters:
- #       folders:
- #         - publication
- #       exclude_featured: false
  #   design:
  #     columns: '2'
- #     view: citation
+ #     view: card
+  - block: collection
+    content:
+      title: Featured Publications
+      text: |-
+        {{% callout note %}}
+        For the full list of my publication, please see my [Google Scholar](https://scholar.google.com/citations?user=XXFHGDEAAAAJ&hl=en) page.
+        {{% /callout %}}
+      filters:
+        folders:
+          - publication
+        exclude_featured: false
+    design:
+      columns: '2'
+      view: citation
   - block: markdown
     id: awards
     content:
