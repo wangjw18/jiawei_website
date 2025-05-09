@@ -48,6 +48,7 @@ sections:
       title: News
       #subtitle: A subtitle
       text: |-
+        - **05/2025**: Check our two preprints on generative behavior simulation for Autonomous Vehicles: [TeraSim: Uncovering Unknown Unsafe Events for Autonomous Vehicles through Generative Simulation](https://arxiv.org/abs/2503.03629), [RADE: Learning Risk-Adjustable Driving Environment via Multi-Agent Conditional Diffusion](https://arxiv.org/abs/2505.03178).
         - **12/2024**: I was award Beijing 2024 Outstanding Doctoral Dissertation Award!
         - **11/2024**: Our paper [Decentralized Robust Data-driven Predictive Control for Smoothing Mixed Traffic Flow](https://ieeexplore.ieee.org/document/10810289?denied=) was accepted for publication in IEEE Transactions on Intelligent Transportation Systems. Congratulations to my great collaborator [Xu Shang](https://xushang23.github.io/)! 
         - **11/2024**: Our paper [Influence of information flow topology and maximum platoon size on mixed traffic stability](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=XXFHGDEAAAAJ&sortby=pubdate&citation_for_view=XXFHGDEAAAAJ:cWzG1nlazyYC) was accepted for publication in Transportation Research Part C. Congratulations to my great collaborator [Shuai Li]([https://xushang23.github.io/](https://www.researchgate.net/profile/Shuai-Li-134))!
