@@ -280,6 +280,16 @@ function showGlobalMultiVideo(videoNumber) {
     
     const buttons = document.querySelectorAll('.global-multi-switcher .video-btn');
     
+    // Video labels for each location
+    const videoLabels = [
+        'Pedestrian Crossing',
+        'Agreesive Merge',
+        'Highway Zigzag',
+        'Redlight Running',
+        'Deny Merge',
+        'Fail-to-Yield'
+    ];
+    
     if (videoNumber < 1 || videoNumber > 6) return;
     
     // Reset all buttons
@@ -306,6 +316,12 @@ function showGlobalMultiVideo(videoNumber) {
         // Update button state
         if (buttons[videoNumber - 1]) {
             buttons[videoNumber - 1].classList.add('active');
+        }
+        
+        // Update video label
+        const labelElement = document.getElementById('global-multi-label');
+        if (labelElement) {
+            labelElement.textContent = videoLabels[videoNumber - 1];
         }
         
         // Play video

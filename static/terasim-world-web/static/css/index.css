@@ -307,6 +307,7 @@ body {
 }
 
 .global-multi-switcher .video-container {
+  position: relative;
   width: 100%;
   max-width: 1600px;
   margin: 0 auto;
@@ -317,6 +318,20 @@ body {
   max-width: 100%;
   height: auto;
   object-fit: contain;
+}
+
+.global-multi-switcher .video-description {
+  text-align: center;
+  margin-top: 20px;
+  padding: 0 20px;
+}
+
+.global-multi-switcher .video-description p {
+  font-size: 16px;
+  font-weight: 500;
+  color: #333;
+  margin: 0;
+  font-family: 'Google Sans', sans-serif;
 }
 
 #global-front-carousel .video-item {
@@ -382,15 +397,17 @@ body {
   z-index: 10;
 }
 
-#global-front-carousel .video-label {
-  background: rgba(0, 0, 0, 0.7);
-  color: white;
-  padding: 8px 16px;
-  border-radius: 20px;
+#global-front-carousel .video-description {
+  text-align: center;
+  margin-top: 15px;
+  padding: 0 15px;
+}
+
+#global-front-carousel .video-description p {
   font-size: 14px;
-  font-weight: bold;
-  display: inline-block;
-  backdrop-filter: blur(5px);
+  font-weight: 500;
+  color: #333;
+  margin: 0;
   font-family: 'Google Sans', sans-serif;
 }
 
@@ -398,12 +415,20 @@ body {
 /* Responsive design */
 @media (max-width: 768px) {
   .video-controls {
-    gap: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    padding: 0 10px;
   }
   
   .video-btn {
-    padding: 10px 20px;
-    font-size: 14px;
+    padding: 8px 16px;
+    font-size: 12px;
+    min-width: auto;
+    flex: 0 0 auto;
   }
   
   #global-front-carousel .item {
@@ -419,13 +444,12 @@ body {
     padding: 0;
   }
   
-  #global-front-carousel .video-overlay {
-    top: 20px;
-    left: 20px;
+  #global-front-carousel .video-description {
+    margin-top: 10px;
+    padding: 0 10px;
   }
   
-  #global-front-carousel .video-label {
-    padding: 6px 12px;
+  #global-front-carousel .video-description p {
     font-size: 12px;
   }
   
@@ -441,14 +465,13 @@ body {
     height: auto !important;
   }
   
-  .global-multi-switcher .video-overlay {
-    top: 20px;
-    left: 20px;
+  .global-multi-switcher .video-description {
+    margin-top: 15px;
+    padding: 0 15px;
   }
   
-  .global-multi-switcher .video-label {
-    padding: 6px 12px;
-    font-size: 12px;
+  .global-multi-switcher .video-description p {
+    font-size: 14px;
   }
   
   /* Mobile video improvements */
@@ -470,5 +493,18 @@ body {
   
   video::-webkit-media-controls-panel {
     display: block !important;
+  }
+}
+
+/* Extra small screens */
+@media (max-width: 480px) {
+  .video-controls {
+    gap: 8px;
+    padding: 0 5px;
+  }
+  
+  .video-btn {
+    padding: 6px 12px;
+    font-size: 11px;
   }
 }
