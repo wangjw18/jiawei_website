@@ -307,14 +307,16 @@ body {
 }
 
 .global-multi-switcher .video-container {
-  width: 1600px !important;
-  max-width: 1600px !important;
+  width: 100%;
+  max-width: 1600px;
   margin: 0 auto;
 }
 
 .global-multi-switcher .video-container video {
-  width: 100% !important;
-  max-width: 1600px !important;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  object-fit: contain;
 }
 
 #global-front-carousel .video-item {
@@ -428,6 +430,17 @@ body {
   }
   
   /* Global Multi Switcher Mobile Styles */
+  .global-multi-switcher .video-container {
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+  
+  .global-multi-switcher .video-container video {
+    width: 100% !important;
+    max-width: 100% !important;
+    height: auto !important;
+  }
+  
   .global-multi-switcher .video-overlay {
     top: 20px;
     left: 20px;
