@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="description"
+        content="TeraSim-World">
+  <meta name="keywords" content="Data Synthesis, Corner Cases, End-to-End Autonomous Driving, Video Generation">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>TeraSim-World: Worldwide Safety-Critical Data Synthesis for End-to-End Autonomous Driving</title>
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-PYVRSFMDRL"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+
+    gtag('js', new Date());
+
+    gtag('config', 'G-PYVRSFMDRL');
+  </script>
+
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+        rel="stylesheet">
+
+  <link rel="stylesheet" href="./static/css/bulma.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="./static/css/index.css">
+  <!-- <link rel="icon" href="./static/images/favicon.svg"> -->
+  <link rel="apple-touch-icon" sizes="180x180" href="static/images/favicon_io/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="static/images/favicon_io/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="static/images/favicon_io/favicon-16x16.png">
+  <link rel="manifest" href="static/images/favicon_io/site.webmanifest">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="./static/js/bulma-carousel.min.js"></script>
+  <script src="./static/js/bulma-slider.min.js"></script>
+  <!-- <script defer src="./static/js/fontawesome.all.min.js"></script> -->
+  <script src="./static/js/index.js"></script>
+</head>
+<body>
+
+<nav class="navbar" role="navigation" aria-label="main navigation">
+  <div class="navbar-brand">
+    <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+    </a>
+  </div>
+  <div class="navbar-menu">
+    <div class="navbar-start" style="flex-grow: 1; justify-content: center;">
+      <!-- <a class="navbar-item" href="https://keunhong.com">
+      <span class="icon">
+          <i class="fas fa-home"></i>
+      </span>
+      </a> -->
+
+      <!-- <div class="navbar-item has-dropdown is-hoverable">
+        <a class="navbar-link">
+          More Research
+        </a>
+        <div class="navbar-dropdown">
+          <a class="navbar-item" href="https://hypernerf.github.io">
+            HyperNeRF
+          </a>
+          <a class="navbar-item" href="https://nerfies.github.io">
+            Nerfies
+          </a>
+          <a class="navbar-item" href="https://latentfusion.github.io">
+            LatentFusion
+          </a>
+          <a class="navbar-item" href="https://photoshape.github.io">
+            PhotoShape
+          </a>
+        </div>
+      </div> -->
+    </div>
+
+  </div>
+</nav>
+
+
+<section class="hero">
+  <div class="hero-body">
+    <div class="container" style="max-width: 1400px;">
+      <div class="columns is-centered">
+        <div class="column has-text-centered">
+          <h1 class="title is-1 publication-title">TeraSim-World: Worldwide Safety-Critical Data Synthesis for End-to-End Autonomous Driving</h1>
+          <div class="is-size-5 publication-authors">
+            <span class="author-block">
+              <a href="https://wjiawei.com">Jiawei Wang</a><sup>1</sup><sup>†</sup>,</span>
+            <span class="author-block">
+              <a href="https://www.linkedin.com/in/howie-haowei-sun/">Haowei Sun</a><sup>2</sup><sup>†</sup>,</span>
+            <span class="author-block">
+              <a href="https://www.civil.hku.hk/pp-yanxt.html">Xintao Yan</a><sup>3</sup>,
+            </span>
+            <span class="author-block">
+              <a href="https://scholar.google.com/citations?user=kb0Ky3QAAAAJ&hl=en">Shuo Feng</a><sup>4</sup>,
+            </span>
+            <span class="author-block">
+              <a href="https://www.cs.toronto.edu/~jungao/">Jun Gao</a><sup>1,5</sup>,
+            </span>
+            <span class="author-block">
+              <a href="https://cee.engin.umich.edu/people/liu-henry/">Henry Liu</a><sup>1</sup><sup>*</sup>
+            </span>
+          </div>
+
+          <div class="is-size-5 publication-authors">
+            <span class="author-block"><sup>1</sup>University of Michigan,</span>
+            <span class="author-block"><sup>2</sup>SaferDrive AI,</span>
+            <span class="author-block"><sup>3</sup>The University of Hong Kong,</span>
+            <span class="author-block"><sup>4</sup>Tsinghua University,</span>
+            <span class="author-block"><sup>5</sup>NVIDIA</span>
+          </div>
+
+          <div class="column has-text-centered">
+            <div class="publication-links">
+              <!-- PDF Link. -->
+              <span class="link-block">
+                <a href="https://arxiv.org/pdf/2503.03629"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fas fa-file-pdf"></i>
+                  </span>
+                  <span>Paper</span>
+                </a>
+              </span>
+              <span class="link-block">
+                <a href="https://arxiv.org/abs/2503.03629"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="ai ai-arxiv"></i>
+                  </span>
+                  <span>arXiv</span>
+                </a>
+              </span>
+              <!-- Video Link. -->
+              <!-- <span class="link-block">
+                <a href="https://www.youtube.com/watch?v=MrKrnHhk8IA"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fab fa-youtube"></i>
+                  </span>
+                  <span>Video</span>
+                </a>
+              </span> -->
+              <!-- Code Link. -->
+              <span class="link-block">
+                <a href="https://github.com/mcity/TeraSim/tree/feature/monorepo"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fab fa-github"></i>
+                  </span>
+                  <span>Code</span>
+                  </a>
+              </span>
+              <!-- Dataset Link. -->
+              <!-- <span class="link-block">
+                <a href="https://github.com/google/nerfies/releases/tag/0.1"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="far fa-images"></i>
+                  </span>
+                  <span>Data</span>
+                  </a> -->
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="hero teaser">
+  <div class="container" style="max-width: 1200px;">
+    <div class="hero-body">
+      <div class="video-switcher">
+        <div class="video-container">
+          <video id="video1" class="active-video" autoplay muted loop playsinline controls>
+            <source src="./static/videos/demo_annarbor-1-small.mp4" type="video/mp4">
+          </video>
+          <video id="video2" class="hidden-video" autoplay muted loop playsinline controls>
+            <source src="./static/videos/demo_annarbor-2-small.mp4" type="video/mp4">
+          </video>
+          <video id="video3" class="hidden-video" autoplay muted loop playsinline controls>
+            <source src="./static/videos/demo_annarbor-3-small.mp4" type="video/mp4">
+          </video>
+        </div>
+        <div class="video-controls">
+          <button class="video-btn" onclick="showVideo(1)">Front View</button>
+          <button class="video-btn" onclick="showVideo(2)">Multi View</button>
+          <button class="video-btn" onclick="showVideo(3)">Static Adversaries</button>
+        </div>
+      </div>
+      <h2 class="subtitle has-text-centered" style="margin-top: 3rem;">
+        Starting from a global coordinate, <span class="dnerf">TeraSim-World</span> automatically synthesizes diverse and geographically grounded safety-critical data for E2E autonomous driving at anywhere in the world.
+      </h2>
+    </div>
+  </div>
+</section>
+
+
+<section class="hero is-small" style="background-color: white;">
+  <div class="hero-body" style="padding: 0;">
+    <div id="global-front-carousel" class="carousel results-carousel">
+      <div class="item item-paris">
+        <div class="video-item">
+          <video poster="" id="paris" autoplay controls muted loop playsinline height="100%">
+            <source src="./static/videos/global_front/global_front-paris-small.mp4"
+                    type="video/mp4">
+          </video>
+          <div class="video-overlay">
+            <span class="video-label">Pedestrian Crossing, Paris, FR</span>
+          </div>
+        </div>
+      </div>
+      <div class="item item-rossfeld">
+        <div class="video-item">
+          <video poster="" id="rossfeld" autoplay controls muted loop playsinline height="100%">
+            <source src="./static/videos/global_front/global_front-rossfeld-small.mp4"
+                    type="video/mp4">
+          </video>
+          <div class="video-overlay">
+            <span class="video-label">Agreesive Merge, Rossfeld, DE</span>
+          </div>
+        </div>
+      </div>
+        <div class="item item-annarbor">
+          <div class="video-item">
+            <video poster="" id="annarbor" autoplay controls muted loop playsinline height="100%">
+              <source src="./static/videos/global_front/global_front-annarbor-small.mp4"
+                      type="video/mp4">
+            </video>
+            <div class="video-overlay">
+              <span class="video-label">Fail-to-Yield, Ann Arbor, US</span>
+            </div>
+          </div>
+        </div>
+        <div class="item item-chicago">
+          <div class="video-item">
+            <video poster="" id="chicago" autoplay controls muted loop playsinline height="100%">
+              <source src="./static/videos/global_front/global_front-chicago-small.mp4"
+                      type="video/mp4">
+            </video>
+            <div class="video-overlay">
+              <span class="video-label">Deny Merge, Chicago, US</span>
+            </div>
+          </div>
+        </div>
+        <div class="item item-arizona">
+          <div class="video-item">
+            <video poster="" id="arizona" autoplay controls muted loop playsinline height="100%">
+              <source src="./static/videos/global_front/global_front-arizona-small.mp4"
+                      type="video/mp4">
+            </video>
+            <div class="video-overlay">
+              <span class="video-label">Highway Zigzag, Arizona, US</span>
+            </div>
+          </div>
+        </div>
+        <div class="item item-sandiego">
+          <div class="video-item">
+            <video poster="" id="sandiego" autoplay controls muted loop playsinline height="100%">
+              <source src="./static/videos/global_front/global_front-sandiego-small.mp4"
+                      type="video/mp4">
+            </video>
+            <div class="video-overlay">
+              <span class="video-label">Redlight Running, San Diego, US</span>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+<section class="section">
+  <div class="container" style="max-width: 1200px;">
+    <!-- Abstract. -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths" style="max-width: 1100px;">
+        <h2 class="title is-3">Abstract</h2>
+        <div class="content has-text-justified">
+          <p class="subtitle">
+            Safe and scalable deployment of end-to-end (E2E) autonomous driving requires extensive and diverse data, 
+            particularly safety-critical events. Existing data are mostly generated from simulators with a significant 
+            sim-to-real gap or collected from on-road testing that is costly and unsafe. 
+          </p>
+
+          <p class="subtitle">
+            This paper presents <span class="dnerf">TeraSim-World</span>, an automated pipeline that synthesizes realistic and geographically diverse 
+            safety-critical data for E2E autonomous driving at anywhere in the world. 
+            Starting from an arbitrary location, <span class="dnerf">TeraSim-World</span> retrieves real-world maps and traffic demand from geospatial data sources. 
+            Then, it simulates agent behaviors from naturalistic driving datasets, 
+            and orchestrates diverse adversities to create corner cases. 
+            Inspired by street views of the same location, it achieves photorealistic, 
+            geographically grounded sensor rendering via the frontier video generation model  
+            Cosmos-Drive. 
+          </p>
+
+          <p class="subtitle">
+            By bridging agent and sensor simulations, 
+            <span class="dnerf">TeraSim-World</span> provides scalable and critical data synthesis framework for training and 
+            evaluation of E2E autonomous driving systems.
+          </p>
+          <!-- <p>
+            We present the first method capable of photorealistically reconstructing a non-rigidly
+            deforming scene using photos/videos captured casually from mobile phones.
+          </p>
+          <p>
+            Our approach augments neural radiance fields
+            (NeRF) by optimizing an
+            additional continuous volumetric deformation field that warps each observed point into a
+            canonical 5D NeRF.
+            We observe that these NeRF-like deformation fields are prone to local minima, and
+            propose a coarse-to-fine optimization method for coordinate-based models that allows for
+            more robust optimization.
+            By adapting principles from geometry processing and physical simulation to NeRF-like
+            models, we propose an elastic regularization of the deformation field that further
+            improves robustness.
+          </p>
+          <p>
+            We show that <span class="dnerf">Nerfies</span> can turn casually captured selfie
+            photos/videos into deformable NeRF
+            models that allow for photorealistic renderings of the subject from arbitrary
+            viewpoints, which we dub <i>"nerfies"</i>. We evaluate our method by collecting data
+            using a
+            rig with two mobile phones that take time-synchronized photos, yielding train/validation
+            images of the same pose at different viewpoints. We show that our method faithfully
+            reconstructs non-rigidly deforming scenes and reproduces unseen views with high
+            fidelity.
+          </p> -->
+        </div>
+      </div>
+    </div>
+    <!--/ Abstract. -->
+
+    <!-- Paper video. -->
+    <!-- <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Video</h2>
+        <div class="publication-video">
+          <iframe src="https://www.youtube.com/embed/MrKrnHhk8IA?rel=0&amp;showinfo=0"
+                  frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+    <!--/ Paper video. -->
+  <!-- </div> -->
+
+</section>
+
+<!-- Framework Video Section -->
+<section style="padding: 0rem 0 4rem 0; min-height: auto; margin-bottom: 0rem;">
+  <div class="container" style="max-width: 1600px;">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-full">
+        <div class="video-container" style="max-width: 100%; width: 100%; padding: 0; margin: 0; overflow: visible; box-shadow: none !important;">
+          <video autoplay loop muted controls playsinline style="width: 100%; max-width: 1920px; height: auto; display: block; margin: 0 auto; object-fit: contain; box-shadow: none !important; border: none !important; outline: none !important; filter: none !important; image-rendering: -webkit-optimize-contrast; image-rendering: crisp-edges;" preload="auto">
+            <source src="static/videos/framework-small.mp4" type="video/mp4">
+          </video>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!--/ Framework Video Section -->
+
+<section class="hero is-small" style="background-color: white;">
+  <div class="hero-body" style="padding: 2rem 0 0 0;">
+    <div class="container has-text-centered" style="margin-bottom: 0rem;">
+      <h2 class="title is-3">Anywhere in the World</h2>
+    </div>
+    <p class="subtitle has-text-centered" style="margin-top: 1.5rem;">
+      We showcase some representative safety-critical events from <span class="dnerf">TeraSim-World</span>. 
+      More synthesized data will be released.
+    </p>
+    <div class="container" style="max-width: 1600px;">
+      <div class="global-multi-switcher">
+        <div class="video-controls">
+          <button class="video-btn" onclick="showGlobalMultiVideo(1)">Paris</button>
+          <button class="video-btn" onclick="showGlobalMultiVideo(2)">Rossfeld</button>
+          <button class="video-btn" onclick="showGlobalMultiVideo(3)">Arizona</button>
+          <button class="video-btn" onclick="showGlobalMultiVideo(4)">San Diego</button>
+          <button class="video-btn" onclick="showGlobalMultiVideo(5)">Chicago</button>
+          <button class="video-btn" onclick="showGlobalMultiVideo(6)">Ann Arbor</button>
+        </div>
+        <div class="video-container">
+          <video id="global-multi-video1" class="active-video" autoplay controls muted loop playsinline>
+            <source src="./static/videos/global_multi/paris-small.mp4" type="video/mp4">
+          </video>
+          <video id="global-multi-video2" class="hidden-video" autoplay controls muted loop playsinline>
+            <source src="./static/videos/global_multi/rossfeld-small.mp4" type="video/mp4">
+          </video>
+          <video id="global-multi-video3" class="hidden-video" autoplay controls muted loop playsinline>
+            <source src="./static/videos/global_multi/arizona-small.mp4" type="video/mp4">
+          </video>
+          <video id="global-multi-video4" class="hidden-video" autoplay controls muted loop playsinline>
+            <source src="./static/videos/global_multi/sandiego-small.mp4" type="video/mp4">
+          </video>
+          <video id="global-multi-video5" class="hidden-video" autoplay controls muted loop playsinline>
+            <source src="./static/videos/global_multi/chicago-small.mp4" type="video/mp4">
+          </video>
+          <video id="global-multi-video6" class="hidden-video" autoplay controls muted loop playsinline>
+            <source src="./static/videos/global_multi/annarbor-small.mp4" type="video/mp4">
+          </video>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="hero is-small">
+  <div class="hero-body" style="padding: 4rem 0 0 0;">
+    <div class="container" style="max-width: 2000px;">
+      <div class="columns is-centered" style="margin-bottom: 2rem;">
+        <div class="column is-four-fifths" style="max-width: 1200px;">
+          <h2 class="title is-3 has-text-centered">From Test Facility to the Real World</h2>
+            <p class="subtitle has-text-centered" style="margin-top: 1.5rem;">
+              Test facilities like <a href="https://mcity.umich.edu/" target="_blank">Mcity</a> provide a controlled environment, 
+              but its miniature setup cannot fully reflect the real-world complexity. 
+              With <span class="dnerf">TeraSim-World</span>, existing facilities can now generate more realistic and diverse scenarios.
+            </p>
+        </div>
+      </div>
+      <div class="video-container" style="max-width: 1600px; margin: 0 auto; padding: 0; box-shadow: none;">
+        <video poster="" id="mcity-combined" autoplay controls muted loop playsinline style="width: 100%; height: auto;">
+          <source src="./static/videos/mcity_combined-small.mp4" type="video/mp4">
+        </video>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="section">
+  <div class="container" style="max-width: 1150px; padding: 4rem 0 0 0;">
+    <div class="columns is-centered">
+    <!-- Concurrent Work. -->
+    <div class="columns is-centered">
+      <div class="column is-full-width">
+        <h2 class="title is-3">Related Links</h2>
+
+        <div class="content has-text-justified">
+          <p>
+            We also provide resources and related work for <span class="dnerf">TeraSim-World</span>.
+          </p>
+          <p>
+            <a href="https://arxiv.org/abs/2503.03629">TeraSim</a>  
+            presents the capability of uncovering unknown unsafe events in a Mcity Carla environment.
+          </p>
+          
+          <p>
+            <a href="https://github.com/nv-tlabs/Cosmos-Drive-Dreams">Cosmos-Drive-Dreams</a>  
+            provides video generation pipeline from NVIDIA. HDMap video rendering from trajectories and maps are built on top of the original <a href="https://github.com/nv-tlabs/Cosmos-Drive-Dreams/tree/main/cosmos-drive-dreams-toolkits">COSMOS-Drive Toolkits</a> 
+          </p>
+          <p>
+            We will continue to release supplementary materials and more synthesized data as they become available.
+          </p>
+          
+        </div>
+      </div>
+    </div>
+    <!--/ Concurrent Work. -->
+
+  </div>
+</section>
+
+
+<section class="section" id="BibTeX">
+  <div class="container" style="max-width: 1200px;">
+
+    <div class="columns is-centered">
+      <div class="column is-full-width">
+        <h2 class="title is-3">BibTeX</h2>
+        <pre><code>@article{wang2025terasim-world,
+  author    = {Wang, Jiawei and Sun, Haowei and Yan, Xintao and Feng, Shuo and Gao, Jun and Liu, Henry},
+  title     = {TeraSim-World: Worldwide Safety-Critical Data Synthesis for End-to-End Autonomous Driving},
+  journal   = {arXiv preprint},
+  year      = {2025},
+}</code></pre>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+
+</body>
+</html>
