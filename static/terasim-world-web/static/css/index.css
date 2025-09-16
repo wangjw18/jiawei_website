@@ -389,6 +389,19 @@ body {
   color: #2366d1 !important;
 }
 
+/* 轮播导航点样式 - 将导航点改为灰色 */
+.slider-pagination .slider-page {
+  background: #666666 !important;
+}
+
+.slider-pagination .slider-page.is-active {
+  background: #666666 !important;
+}
+
+.slider-pagination .slider-page:hover {
+  background: #888888 !important;
+}
+
 
 #global-front-carousel .video-overlay {
   position: absolute;
