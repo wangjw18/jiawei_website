@@ -48,7 +48,9 @@ sections:
       title: News
       #subtitle: A subtitle
       text: |-
+        - **09/2025**: Check our new preprint: [TeraSim-World: Worldwide Safety-Critical Data Synthesis for End-to-End Autonomous Driving](https://arxiv.org/abs/2509.13164). Codes and videos are available [here](https://arxiv.org/abs/2509.13164).
         - **08/2025**: Excited to begin my new role as a Lecturer in the Department of Civil and Environmental Engineering at the University of Michigan!
+        - **07/2025**: Our paper about [RADE](https://arxiv.org/abs/2505.03178) was accepted by ITSC 2025.
         - **05/2025**: Check our two preprints on generative behavior simulation for Autonomous Vehicles: [TeraSim: Uncovering Unknown Unsafe Events for Autonomous Vehicles through Generative Simulation](https://arxiv.org/abs/2503.03629), [RADE: Learning Risk-Adjustable Driving Environment via Multi-Agent Conditional Diffusion](https://arxiv.org/abs/2505.03178).
         - **12/2024**: I was award Beijing 2024 Outstanding Doctoral Dissertation Award!
         - **11/2024**: Our paper [Decentralized Robust Data-driven Predictive Control for Smoothing Mixed Traffic Flow](https://ieeexplore.ieee.org/document/10810289?denied=) was accepted for publication in IEEE Transactions on Intelligent Transportation Systems. Congratulations to my great collaborator [Xu Shang](https://xushang23.github.io/)! 
@@ -99,6 +101,8 @@ sections:
         folders:
           - publication
         exclude_featured: false
+      link_to: publication
+      link_text: "See all featured publications"
     design:
       columns: '2'
       view: citation

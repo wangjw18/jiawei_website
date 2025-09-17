@@ -27,7 +27,7 @@ bio: My research interests include connected vehicles, traffic control, distribu
 # Interests to show in About widget
 interests:
   - Connected Automated Vehicles
-  - Intelligent Transportation
+  - Generative Simulation
   - Control and Optimization
   - Machine Learning
 
