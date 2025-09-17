@@ -101,8 +101,6 @@ sections:
         folders:
           - publication
         exclude_featured: false
-      link_to: publication
-      link_text: "See all featured publications"
     design:
       columns: '2'
       view: citation

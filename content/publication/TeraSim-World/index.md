@@ -13,9 +13,7 @@ authors:
   - Henry X. Liu
 
 # Author notes (optional)
-author_notes: 
-  - 'Equal contribution'
-  - 'Equal contribution'
+author_notes: []
 
 date: '2025-09-17T00:00:00Z'
 doi: ''
